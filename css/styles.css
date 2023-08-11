@@ -23,7 +23,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row-reverse wrap;
+    flex-flow: row wrap;
 
 }
 .nav .list-items{
@@ -40,13 +40,24 @@ a{
 .card-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.card-container .card1{
+.card-container .card{
     order: 2;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
-.card-3{
+/* .card-3{
     order: 1;
 }
 .card-10{
     order: 3;
+    flex-grow: 1;
 }
+.card-1{
+    flex-grow: 1;
+} */
+
+/*
+  
+*/
